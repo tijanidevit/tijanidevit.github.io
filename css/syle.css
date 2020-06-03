@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+.j1 {
+  	background-image: url('../index.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron {
+    width: 100%;
+    border-radius: 0;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+}
+.nav-link{
+	color: #fff !important;
+	margin-right: 8px !important;
+}
+.text-gold{
+	color: #ffc57c !important;
+}
+.text-sm{
+	font-size: 14px;
+}
+.text-bg{
+	font-size: 60px;
+}
+.fa-bg{
+	height: 60px;
+}
+.gold-border{
+	border: #ffc57c solid 1px;
+	padding: 20px;
+}
+.go-border{
+	border: #ffc57c solid 1px;
+	background-color: transparent !important;
+}
+.gold-bg{
+	background-color: #ffc57c;
+}
+.main-bg{
+	background-color: #1f2336;
+}
+.sup-bg{
+	background-color: #313552;
+}
+.full-bg{
+	height: 100vh;
+	width: 100%;
+}
+.lil-bg{
+	height: 80vh;
+	width: 100%;
+}
+.bg-item{
+	position: absolute;
+	margin-top: 10% !important; 
+}
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+.float-right{
+	text-align: right;
+}
+.activate, .nav-link:hover{
+	border-bottom: solid  #ffc57c 2px !important;
+	color: #ffc57c !important;
+}
+
+.roll-out-text{
+	font-family: 'Ma Shan Zheng', cursive;
+}
+
+.text-heading{
+	font-family: 'Montserrat', sans-serif;
+}
+.welcome-text{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+}
+
+img.jumbotron-img{
+	width: 100%;
+	height: 80%;
+}
+section{
+	margin-top: -32px;
+}
+.progress{
+	height: 9px;
+}
+.progress-side{
+	margin-bottom: 2%;
+}
+.service-box{
+	min-height: 300px;
+	max-height: 300px;
+}
+.box{
+	padding: 20px;
+}
+.service-box:hover,.experience-box:hover {
+    transform: translate3d(0, 10px, 0);
+	color: #ffc57c;
+	border: #313552 solid 1px;
+	background-color: #1f2336;
+}
+#slider .item
+{
+	width: 80%;
+	display: block;
+	height: auto;
+}
+#slider .item img
+{
+	width: 90%;
+	height: 90%;
+}
+
+input, textarea{
+	color: #ffc57c !important;
+	resize: none;
+}
+
+input::placeholder , textarea::placeholder{
+	color: #fff !important;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #ffc57c;
+    }
+    .welcome-text{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 63px;
+		max-height: 340px;
+		min-height: 340px;
+	}
+	.service-box{
+		margin-bottom: 10px;
+	}
+}
+nav {
+        background-color: #313552 !important;
+    }
