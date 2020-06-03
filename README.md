@@ -1,1 +1,3 @@
-# tijanidevit.github.io
+---
+permalink: /index.html
+---
